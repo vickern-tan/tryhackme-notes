@@ -1,24 +1,21 @@
-## **PIM | Privileged Identity Management**
-```
-- PIM is used to translate a user's role within an organisation into an access role on a system. Whereas PAM is the management of the privileges a system's access role has, amongst other things.
 
-- Being used when you wanted to manage privileges a system access role had.
-```
+# Principles of Privileges
+## **PIM | Privileged Identity Management**
+
+> - PIM is used to translate a user's role within an organisation into an access role on a system. Whereas PAM is the management of the privileges a system's access role has, amongst other things.
+> - Being used when you wanted to manage privileges a system access role had.
 
 ## **PAM | Privileged Access Management**
 
-```
-- PAM incorporates more than assigning access. It also encompasses enforcing security policies such as password management, auditing policies and reducing the attack surface a system faces.
-
-- Being used when you wanted to create a system role that is based on a users role/responsibilities with an organisation.
-```
+> - PAM incorporates more than assigning access. It also encompasses enforcing security policies such as password management, auditing policies and reducing the attack surface a system faces.
+> - Being used when you wanted to create a system role that is based on a users role/responsibilities with an organisation.
 
 
-## **Frameworks**
+# **Frameworks**
 ### STRIDE:
-> - A breach of security is known as an incident. And despite all rigorous threat models and secure system designs, incidents do happen. Actions taken to resolve and remediate the threat are known as Incident Response (IR) and are a whole career path in cybersecurity.
+> A breach of security is known as an incident. And despite all rigorous threat models and secure system designs, incidents do happen. Actions taken to resolve and remediate the threat are known as Incident Response (IR) and are a whole career path in cybersecurity.
 
-> - Incidents are classified using a rating of urgency and impact. Urgency will be determined by the type of attack faced, where the impact will be determined by the affected system and what impact that has on business operations.
+>  Incidents are classified using a rating of urgency and impact. Urgency will be determined by the type of attack faced, where the impact will be determined by the affected system and what impact that has on business operations.
 ```
 1. Spoofing Identity
    - This principle requires you to authenticate requests and 
