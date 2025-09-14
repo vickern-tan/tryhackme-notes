@@ -57,3 +57,15 @@ user@machine$ curl http://10.201.16.168 -v
 < Content-Type: text/html; charset=UTF-8 
 < Transfer-Encoding: chunked < Connection: keep-alive
 ```
+
+
+# OSINT
+
+## **Google Hacking/Dorking**
+> - Google hacking / Dorking utilizes Google's advanced search engine features, which allow you to pick out custom content. You can, for instance, pick out results from a certain domain name using the **site:** filter, for example (site:[tryhackme.com](http://tryhackme.com/)) you can then match this up with certain search terms, say, for example, the word admin (site:tryhackme.com admin) this then would only return results from the [tryhackme.com](http://tryhackme.com/) website which contain the word admin in its content. You can combine multiple filters as well. Here is an example of more filters you can use:
+
+![[Pasted image 20250914154012.png]]
+
+## **Wappalyzer**
+> - Wappalyzer ([https://www.wappalyzer.com/](https://www.wappalyzer.com/)) is an online tool and browser extension that helps identify what technologies a website uses, such as frameworks, Content Management Systems (CMS), payment processors and much more, and it can even find version numbers as well.
+
