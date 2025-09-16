@@ -21,7 +21,7 @@ user@machine$ ffuf -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common
 ffuf -w common.txt -u http://10.201.16.48/FUZZ -t 40 -mc 200,301,302 -o ffuf.json -of json
 ```
 
-- `-t 40 → threads/concurrency (speed)`
+- `-t 40` → threads/concurrency (speed)
 - `-mc 200,301,302` → show only these status codes (match codes)
 - `-fs SIZE` → filter responses by exact size (useful to remove noise)
 - `-mr 'regex'` → match response bodies with regex
