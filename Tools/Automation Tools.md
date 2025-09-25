@@ -9,7 +9,7 @@
 
 *Use Case 1:*
 ```
-user@machine$ ffuf -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt -u http://10.201.16.48/FUZZ
+ffuf -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt -u http://10.201.16.48/FUZZ
 ```
 
 - `FUZZ` is a placeholder token — a marker that ffuf will replace, one word at a time, with entries from the supplied wordlist.
@@ -26,3 +26,15 @@ ffuf -w common.txt -u http://10.201.16.48/FUZZ -t 40 -mc 200,301,302 -o ffuf.jso
 - `-fs SIZE` → filter responses by exact size (useful to remove noise)
 - `-mr 'regex'` → match response bodies with regex
 - `-o results.json -of json` → save output
+
+## **dirb**
+
+```
+dirb http://10.201.16.48/ /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt
+```
+
+
+## **gobuster**
+```
+gobuster dir --url http://10.201.16.48/ -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt
+```
